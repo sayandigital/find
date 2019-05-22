@@ -28,9 +28,7 @@ public class ApplicationInputTest {
 	    //assert output
 	    assertEquals(5, inputOutput.getIntegerInput());
 
-	   //added bonus - you can verify that your scanner's nextline() method is
-	   //actually called See Mockito.verify
-	   verify(mockScanner).nextLine();
+	   
 	}
 	
 }
