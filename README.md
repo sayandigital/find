@@ -30,11 +30,11 @@ For n>100 will generate json for each prime.
   
   Example:
   
-  mkdir -p /Users/sayanti/Downloads/prime/
+  mkdir -p /Users/sayandigital/Downloads/prime/
   
   7.Run the jar with json generation path directory:
   
-  java -jar build/libs/java-find-primes-all-1.0-SNAPSHOT.jar /Users/sayanti/Downloads/prime/
+  java -jar build/libs/java-find-primes-all-1.0-SNAPSHOT.jar /Users/sayandigital/Downloads/prime/
   
  8.Follow the user input instructions.
  
