@@ -1,9 +1,11 @@
 package past;
 
-import static org.junit.Assert.*;
+import java.util.Scanner;
 
 import org.junit.Test;
-
+import org.mockito.Mock;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 /**
  * 
  */
@@ -12,11 +14,21 @@ import org.junit.Test;
  * @author sayanti
  *
  */
+
+
 public class FindPrimesTest {
+	
+	@Mock
+	Scanner sc;
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testGenerateInvocation() {
+		FindPrimes fp=mock( FindPrimes.class);
+		verify(fp).generatePrimeMultiplicationTable(5, "/a/b");
 	}
+	
+	
+	
+	
 
 }
